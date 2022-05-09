@@ -15,3 +15,9 @@ describe("Unit Tests dor Spiderman class", () => {
     });
 
   })
+
+  //Queremos usar un método que nos regrese la sig. información: nombre y estudio al que pertenece el spiderman instanciado.
+  test('2) Use the method getInfo()', ()=> {
+    const tomHolland = new Spiderman("Spider-Man Marvel", 25, "Tom Holland", 6, "Marvel")
+    expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel Studio")
+  });
