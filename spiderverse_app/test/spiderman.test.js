@@ -1,3 +1,5 @@
+const Spiderman = requiere('./../app/spiderman')
+
 describe("Unit Tests dor Spiderman class", () => {
     test('1) Create a spiderman object', () => {
       
