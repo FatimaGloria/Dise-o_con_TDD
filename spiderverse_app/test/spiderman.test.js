@@ -21,3 +21,18 @@ describe("Unit Tests for Spiderman class", () => {
     const tomHolland = new Spiderman("Spider-Man Marvel", 25, "Tom Holland", 6, "Marvel")
     expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel Studio")
   });
+
+  //Agregando una tercera prueba de práctica
+  test('3) Verifying class and method together', ()=> {
+    
+    const tobeyMaguire = new Spiderman("Spider-Man", 27, "Tobey Maguire", 3, "Sony")
+      
+    expect(tobeyMaguire.name).toBe("Spider-Man");
+    expect(tobeyMaguire.age).toBe(27);
+    expect(tobeyMaguire.actor).toBe("Tobey Maguire");
+    expect(tobeyMaguire.movies).toBe(3);
+    expect(tobeyMaguire.studio).toBe("Sony");  
+    
+    expect(tobeyMaguire.getInfo()).toBe("Hey, I'm Tobey Maguire from Sony Studio")
+  });
+
