@@ -1,6 +1,6 @@
 const Spiderman = require("../app/spiderman");
 
-describe("Unit Tests dor Spiderman class", () => {
+describe("Unit Tests for Spiderman class", () => {
     test('1) Create a spiderman object', () => {
       
     //Código para instanciar un objeto Spiderman con esta información
